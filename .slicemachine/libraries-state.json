@@ -1,0 +1,75 @@
+{
+  "slices": {
+    "components": {
+      "text_block": {
+        "library": "slices",
+        "id": "text_block",
+        "name": "TextBlock",
+        "description": "TextBlock",
+        "model": {
+          "id": "text_block",
+          "type": "SharedSlice",
+          "name": "TextBlock",
+          "description": "TextBlock",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "TextBlock",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "text_block",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Brand B2B architectures",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Nulla aliquip nulla fugiat enim culpa deserunt adipisicing esse aute ut sint do occaecat sunt duis. Laborum ea amet dolor fugiat aute amet.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      }
+    }
+  }
+}
