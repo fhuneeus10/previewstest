@@ -26,8 +26,17 @@
             "label": "Description",
             "placeholder": "A nice description of your feature"
           }
+        },
+        "avatar": {
+          "config": {
+            "label": "Avatar",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
         }
-      }
+      },
+      "items": {}
     }
   ]
 }

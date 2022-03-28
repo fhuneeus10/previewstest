@@ -5,5 +5,5 @@ export default {
 }
 
 
-export const _Default = () => <MyComponent slice={{"variation":"default","name":"Default","slice_type":"text_block","items":[],"primary":{"title":[{"type":"heading1","text":"Brand B2B architectures","spans":[]}],"description":[{"type":"paragraph","text":"Nulla aliquip nulla fugiat enim culpa deserunt adipisicing esse aute ut sint do occaecat sunt duis. Laborum ea amet dolor fugiat aute amet.","spans":[]}]},"id":"_Default"}} />
+export const _Default = () => <MyComponent slice={{"variation":"default","name":"Default","slice_type":"text_block","items":[],"primary":{"title":[{"type":"heading1","text":"Drive strategic markets","spans":[]}],"description":[{"type":"paragraph","text":"Ea aliqua amet pariatur. Consectetur excepteur eiusmod dolor ea laboris magna ex.","spans":[]}],"avatar":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1544731612-de7f96afe55f?w=900&h=500&fit=crop"}},"id":"_Default"}} />
 _Default.storyName = 'Default'

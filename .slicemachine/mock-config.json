@@ -5,6 +5,10 @@
     "post": {}
   },
   "slices": {
-    "TextBlock": {}
+    "TextBlock": {
+      "default": {
+        "primary": {}
+      }
+    }
   }
 }

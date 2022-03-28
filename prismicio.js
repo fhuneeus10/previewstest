@@ -12,6 +12,10 @@ export function linkResolver(doc) {
       return '/'
     case 'page':
       return `/${doc.uid}`
+    case 'author':
+      return `/${doc.uid}`
+    case 'post':
+      return `/${doc.uid}`
     default:
       return null
   }
